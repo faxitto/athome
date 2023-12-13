@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>origin</title>
+    <style>
+        .origin {
+            width: 350px;
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+            background-origin: content-box;
+        }
+
+        .origin1 {
+            background-image: url(html.png);
+            border: dashed 5px sandybrown;
+        }
+
+        .origin2 {
+            background-image: url(css.png);
+            border: dashed 5px antiquewhite;
+        }
+
+        .origin3 {
+            background-image: url(js.png);
+            border: dashed 5px peru;
+        }
+        .fxr{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 80px;
+            font-weight: 850;
+            background-image: url(yeniil.jpg);
+            background-size: contain;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fxr">Fexriyye</div>
+    <div class="origin origin1">
+        <h3 id="html">Html</h3>
+    </div>
+    <div class="origin origin2">
+        <h3 id="css">Css</h3>
+    </div>
+    <div class="origin origin3">
+        <h3 id="js">javascript</h3>
+    </div>
+
+</body>
+
+</html>
